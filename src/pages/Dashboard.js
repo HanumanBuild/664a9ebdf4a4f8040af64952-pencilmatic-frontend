@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { fabric } from 'fabric';
 import axios from 'axios';
 
+// Define the Dashboard component
 const Dashboard = () => {
   const canvasRef = useRef(null);
 
@@ -58,4 +59,5 @@ const Dashboard = () => {
   );
 };
 
+// Export the Dashboard component
 export default Dashboard;
