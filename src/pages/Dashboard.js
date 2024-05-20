@@ -52,8 +52,8 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-4xl">
-        <h2 className="text-2xl font-bold mb-6">Pencilmatic</h2>
-        <canvas ref={canvasRef} width="800" height="600" className="border border-gray-300"></canvas>
+        <h2 className="text-2xl font-bold mb-6 text-center">Pencilmatic</h2>
+        <canvas ref={canvasRef} width="800" height="600" className="border border-gray-300 w-full h-auto"></canvas>
       </div>
     </div>
   );
